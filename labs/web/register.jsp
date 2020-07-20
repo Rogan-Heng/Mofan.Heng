@@ -15,7 +15,7 @@
     <body>
         <h1>Sign up</h1>
     
-    <form method="post" action="welcome.jsp">
+    <form method="post" action="controller">
         <table>
             <tr><td>BookID:</td><td><input type="text" placeholder="Enter BookID" name="BookID"></td></tr>
             <tr><td>Title:</td><td><input type="text" placeholder="Enter Title" name="Title"></td></tr>
