@@ -17,9 +17,9 @@
     
     <form method="post" action="controller">
         <table>
-            <tr><td>BookID:</td><td><input type="text" placeholder="Enter BookID" name="BookID"></td></tr>
+            <tr><td>BookID:</td><td><input type="Integer" placeholder="Enter BookID" name="BookID"></td></tr>
             <tr><td>Title:</td><td><input type="text" placeholder="Enter Title" name="Title"></td></tr>
-            <tr><td>Authername:</td><td><input type="text" placeholder="Enter Auther name" name="Authername"></td></tr>
+            <tr><td>Authorname:</td><td><input type="text" placeholder="Enter Author name" name="Authorname"></td></tr>
             <tr><td>Publishername:</td><td><input type="text" placeholder="Enter Publisher name" name="Publishername"></td></tr>
             <tr><td></td>
                 <td>

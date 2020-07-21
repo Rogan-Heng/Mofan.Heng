@@ -12,23 +12,23 @@ import java.io.Serializable;
  * @author User
  */
 public class Book implements Serializable{
-    private String BookID;
+    private Integer BookID;
     private String Title;
     private String Authorname;
     private String Publishername;
 
-    public Book(String bookid, String title, String authorname, String publishername) {
+    public Book(Integer bookid, String title, String authorname, String publishername) {
         this.BookID = bookid;
         this.Title = title;
         this.Authorname = authorname;
         this.Publishername = publishername;
     }
 
-    public String getBookID() {
+    public Integer getBookID() {
         return BookID;
     }
 
-    public void setBookID(String BookId) {
+    public void setBookID(Integer BookId) {
         this.BookID = BookId;
     }
 
